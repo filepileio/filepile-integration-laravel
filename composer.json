@@ -1,0 +1,28 @@
+{
+    "name": "filepile/filepile-integration-laravel",
+    "description": "Commands for FilePile.io",
+    "type": "library",
+    "require": {
+        "symfony/console": "^3.3",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FilePile",
+            "email": "jeff@filepile.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FilePile\\FilePileIntegration\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FilePile\\FilePileIntegration\\Providers\\FilePileIntegrationServiceProvider"
+            ]
+        }
+    }
+}
