@@ -1,5 +1,5 @@
 {
-    "name": "filepile/filepile-integration-laravel",
+    "name": "filepileio/filepile-integration-laravel",
     "description": "Commands for FilePile.io",
     "type": "library",
     "require": {
