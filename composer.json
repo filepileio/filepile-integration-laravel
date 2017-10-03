@@ -1,6 +1,6 @@
 {
-    "name": "filepileio/filepile-integration-laravel",
-    "description": "Commands for FilePile.io",
+    "name": "filepileio/laravel",
+    "description": "Laravel integration for FilePile.io",
     "type": "library",
     "require": {
         "symfony/console": "^3.3",
