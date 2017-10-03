@@ -11,7 +11,7 @@ class ApplicationVersionChecker
         if(!$composerLockJSON){
             return null;
         }
-        $package = static::getPackageFromComposerLockJSON($composerLockJSON,'filepile/filepile-integration-laravel');
+        $package = static::getPackageFromComposerLockJSON($composerLockJSON,'filepile/laravel');
         if(!$package){
             return null;
         }
