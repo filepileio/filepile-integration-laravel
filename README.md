@@ -5,7 +5,7 @@
 Install into your project using:
 
 ```
-composer require filepileio/filepile-integration-laravel
+composer require filepileio/laravel
 ```
 
 If using Laravel older than 5.5, add to your config/app.php providers array:
